@@ -1,3 +1,28 @@
+# Envs variables
+.env
+
+# Python cache files
 __pycache__/
 __pycache__/*
-.env
+
+#  Local .terraform directories
+.terraform/*
+.terraform/
+**/.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# IDE files
+.idea
+*.iml
+
+# Build harness files
+.build-harness
+build-harness
+
+# Editor and merge files
+*.orig
+*.draft
+*~
